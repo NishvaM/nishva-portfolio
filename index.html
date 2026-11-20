@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nishva's developer portfolio showcasing projects, skills and experience.">
+  <title>Nishva | Developer Portfolio</title>
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#spotlight" aria-label="Nishva home">Nishva<span>.</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="click active" href="#spotlight">Home</a>
+      <a class="click" href="#about-spotlight">About</a>
+      <a class="click" href="#projects">Projects</a>
+      <a class="click" href="#skills">Skills</a>
+      <a class="nav-cta" href="#contact">Let's Talk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="spotlight" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, welcome to my portfolio</p>
+        <h2>Hi, I'm <span class="hero-name">Nishva</span></h2>
+        <h1>Full Stack<br><span>Developer</span></h1>
+        <p class="hero-description">I build responsive websites and web applications with clean interfaces and reliable functionality.</p>
+        <ul class="hero-tags" aria-label="Technologies">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-outline" href="#contact">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:nishvayoosuf@gmail.com">Email me</a>
+          <a href="https://github.com/NishvaM" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="profile-picture">
+          <img class="profile-background" src="assets/images/background.jpg" alt="" aria-hidden="true">
+          <img class="profile-image" src="assets/images/profile.png" alt="Nishva">
+        </div>
+      </div>
+    </section>
+
+    <section id="about-spotlight" class="about-section">
+      <div class="section-wrap about-layout">
+        <div class="about-image-wrap">
+          <img src="assets/images/aboutme.png" alt="Illustration representing Nishva">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">A little about me</p>
+          <h2>About Me</h2>
+          <p class="about-intro">I'm Nishva, a Computer Science graduate interested in web development and building useful digital experiences. I enjoy turning ideas into responsive interfaces and continuously improving my development skills.</p>
+
+          <div class="profile-tabs">
+            <div class="tab-buttons" role="tablist" aria-label="About information">
+              <button class="tab-btn active" type="button" role="tab" id="tab-education" aria-controls="education" aria-selected="true" data-tab="education">Education</button>
+              <button class="tab-btn" type="button" role="tab" id="tab-experience" aria-controls="experience" aria-selected="false" data-tab="experience">Experience</button>
+              <button class="tab-btn" type="button" role="tab" id="tab-contacts" aria-controls="contacts" aria-selected="false" data-tab="contacts">Contacts</button>
+            </div>
+
+            <div class="tab-content active" id="education" role="tabpanel" aria-labelledby="tab-education">
+              <article class="info-item">
+                <h3>MEA Engineering College</h3>
+                <h4>B.Tech — Computer Science and Engineering</h4>
+                <p>Graduated with a degree in Computer Science and Engineering under KTU University.</p>
+              </article>
+            </div>
+
+            <div class="tab-content" id="experience" role="tabpanel" aria-labelledby="tab-experience" hidden>
+              <article class="info-item">
+                <h3>CRM & Operations Management</h3>
+                <h4>Digital Marketing Agency · Around 1 year</h4>
+                <p>Managed company CRM activities and supported day-to-day business operations.</p>
+              </article>
+              <article class="info-item">
+                <h3>Torc Infotech</h3>
+                <h4>AI Intern</h4>
+                <p>Completed an internship and gained exposure to artificial intelligence concepts and practical applications.</p>
+              </article>
+              <article class="info-item">
+                <h3>Technical Mentor Intern</h3>
+                <h4>Internship</h4>
+                <p>Supported learners with technical concepts, programming practice and project-related guidance.</p>
+              </article>
+            </div>
+
+            <div class="tab-content" id="contacts" role="tabpanel" aria-labelledby="tab-contacts" hidden>
+              <article class="info-item">
+                <h3>Get in touch</h3>
+                <p>Email: <a href="mailto:nishvayoosuf@gmail.com">nishvayoosuf@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/NishvaM" target="_blank" rel="noopener noreferrer">github.com/NishvaM</a></p>
+                <p>LinkedIn: Add your profile link here.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-wrap projects-section">
+      <div class="section-heading">
+        <p class="eyebrow">What I've been working on</p>
+        <h2>My Projects</h2>
+        <p>A selection of projects I've worked on.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/images/portfolio-cybersecurity.png" alt="Cyber Shield project preview" class="project-image">
+          <div class="project-details">
+            <h3>Cyber Shield</h3>
+            <p>A browser-based cybersecurity project designed to detect phishing websites and help users learn online safety.</p>
+            <p class="tech-stack">HTML · CSS · JavaScript · Python · CatBoost</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/images/potfolio-global.png" alt="Global Startup Exchange project preview" class="project-image">
+          <div class="project-details">
+            <h3>Global Startup Exchange</h3>
+            <p>A platform concept connecting startups with mentors, investors and local partners.</p>
+            <p class="tech-stack">HTML · CSS · JavaScript · MySQL</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/images/portfolio.png" alt="Hospital management project preview" class="project-image">
+          <div class="project-details">
+            <h3>Hospital Management System</h3>
+            <p>A system concept for organizing hospital information and supporting day-to-day management tasks.</p>
+            <p class="tech-stack">HTML · CSS · JavaScript · Database</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section section-wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Tools I work with</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-container">
+        <article class="skills-spotlight">
+          <h3>Frontend</h3>
+          <div class="skill-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="skills-spotlight">
+          <h3>Backend</h3>
+          <div class="skill-list"><span>Node.js</span><span>Express.js</span><span>Python</span></div>
+        </article>
+        <article class="skills-spotlight">
+          <h3>Database</h3>
+          <div class="skill-list"><span>MySQL</span><span>SQL</span><span>phpMyAdmin</span></div>
+        </article>
+        <article class="skills-spotlight">
+          <h3>Programming</h3>
+          <div class="skill-list"><span>JavaScript</span><span>Python</span><span>C</span></div>
+        </article>
+        <article class="skills-spotlight">
+          <h3>Tools</h3>
+          <div class="skill-list"><span>VS Code</span><span>Git</span><span>WAMP</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">Have a project in mind?</p>
+          <h2>Let's Connect</h2>
+          <p>Feel free to contact me for opportunities or collaborations.</p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <a href="tel:9207471732">+91 92074 71732</a>
+            <a href="mailto:nishvayoosuf@gmail.com">nishvayoosuf@gmail.com</a>
+            <a href="https://github.com/NishvaM" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+          <form id="contact-form" action="https://formsubmit.co/nishvayoosuf@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New message from Nishva's portfolio">
+            <input type="hidden" name="_captcha" value="true">
+            <label for="form-name">Name</label>
+            <input type="text" name="name" id="form-name" placeholder="Enter your name" required>
+            <label for="form-email">Email</label>
+            <input type="email" name="email" id="form-email" placeholder="Enter your email" required>
+            <label for="form-message">Message</label>
+            <textarea id="form-message" name="message" placeholder="Write your message" rows="5" required></textarea>
+            <button type="submit" class="button button-primary">Send Message</button>
+            <p class="form-note" id="form-note" aria-live="polite">Your email app isn't needed. This form is submitted through FormSubmit.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Nishva. All rights reserved.</p>
+    <a href="#spotlight">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/pages/index.js"></script>
+</body>
+</html>
